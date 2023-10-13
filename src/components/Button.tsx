@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { ButtonContainer, ButtonVariant } from "./Button.styles";
+import { ButtonContainer, ButtonVariant } from './Button.styles'
 
 interface ButtonProps {
-  variant?: ButtonVariant;
+  variant?: ButtonVariant
 }
 
 export function Button({ variant = 'primary' }: ButtonProps) {
